@@ -11,7 +11,6 @@ const SavingsAccountAustralia = () => {
       <Header />
       <HeroSection />
       <SavingsAccountList />
-      <FinderScoreExplanation />
       <FAQSection />
       <Footer />
     </div>
