@@ -1,20 +1,18 @@
 import React from 'react';
+import BusinessAccountList from './BusinessAccountList'; // ✅ use this updated one
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import SavingsAccountList from './components/SavingsAccountList';
 import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
 
-const SavingsAccountAustralia = () => {
+export default function App() {
   return (
     <div>
       <Header />
       <HeroSection />
-      <SavingsAccountList />
+      <BusinessAccountList /> {/* This is where your updated list goes */}
       <FAQSection />
       <Footer />
     </div>
   );
-};
-
-export default SavingsAccountAustralia;
+}
