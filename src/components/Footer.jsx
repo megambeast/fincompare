@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-[#1a365d] text-white py-10 px-6">
       <div className="max-w-5xl mx-auto text-sm text-gray-300">
         <p className="mb-4">
-          © {new Date().getFullYear()} Savings Account Australia. All rights reserved.
+          © {new Date().getFullYear()} Compare Business Banking Australia. All rights reserved.
         </p>
         <p>
           The information on this website is general in nature and doesn’t take into account your personal financial situation.
