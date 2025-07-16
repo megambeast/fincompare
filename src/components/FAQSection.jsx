@@ -7,16 +7,22 @@ export default function FAQSection() {
         <h3 className="text-xl font-bold mb-6 text-[#1a365d]">Frequently Asked Questions</h3>
         <div className="space-y-4">
           <div>
-            <h4 className="font-semibold text-gray-800">What’s a high interest savings account?</h4>
-            <p className="text-gray-600">A high interest savings account is a bank account that offers interest rates higher than standard savings accounts, helping your money grow faster.</p>
+            <h4 className="font-semibold text-gray-800">What is a business bank account?</h4>
+            <p className="text-gray-600">
+              A business bank account is used to manage your company’s finances separately from your personal money. It helps with tracking expenses, receiving payments, and managing tax obligations.
+            </p>
           </div>
           <div>
-            <h4 className="font-semibold text-gray-800">How do I get the bonus interest?</h4>
-            <p className="text-gray-600">Bonus interest is usually conditional. You might need to deposit a minimum amount, make no withdrawals, or meet other monthly criteria.</p>
+            <h4 className="font-semibold text-gray-800">Do I need a business account to operate as a sole trader?</h4>
+            <p className="text-gray-600">
+              Legally, you don’t have to have a separate account as a sole trader, but it’s strongly recommended for better bookkeeping and tax management.
+            </p>
           </div>
           <div>
-            <h4 className="font-semibold text-gray-800">Are online banks safe?</h4>
-            <p className="text-gray-600">Yes. As long as they’re backed by an Australian banking licence (ADI), your deposits up to $250,000 are protected by the Australian government’s deposit guarantee.</p>
+            <h4 className="font-semibold text-gray-800">What fees should I look out for?</h4>
+            <p className="text-gray-600">
+              Watch out for monthly account fees, excess transaction charges, ATM fees, and charges for international payments. Some accounts waive fees if you meet certain conditions.
+            </p>
           </div>
         </div>
       </div>
