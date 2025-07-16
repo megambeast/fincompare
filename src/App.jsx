@@ -1,5 +1,5 @@
 import React from 'react';
-import BusinessAccountList from './BusinessAccountList'; // ✅ use this updated one
+import BusinessAccountList from '.components/BusinessAccountList'; // ✅ use this updated one
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FAQSection from './components/FAQSection';
